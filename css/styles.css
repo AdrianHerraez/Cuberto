@@ -1,36 +1,28 @@
-html {
-    font-size: 16px;
-}
-
-
-/* Redimensión de fuente utilizando rem */
-
-p {
-    font-size: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
-    font-size: 3rem;
+    color: darkcyan;
+    font-size: 100px;
 }
 
 h2 {
-    font-size: 2rem;
+    color: lightslategrey;
+    font-size: 86px;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 55px;
 }
 
-h4 {
-    font-size: 1.3rem;
+p {
+    font-size: 37px;
 }
 
-h5 {
-    font-size: 1.15rem;
-}
-
-h6 {
-    font-size: 1.05rem;
+.n {
+    font-weight: bold;
 }
 
 
@@ -41,6 +33,7 @@ h6 {
 
 * {
     box-sizing: border-box;
+    padding: 0.5%;
 }
 
 body {
