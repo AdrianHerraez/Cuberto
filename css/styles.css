@@ -1,45 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-* {
-    font-family: 'Quicksand', sans-serif;
-}
-
-h1 {
-    color: darkcyan;
-    font-size: 100px;
-}
-
-h2 {
-    color: lightslategrey;
-    font-size: 86px;
-}
-
-h3 {
-    font-size: 55px;
-}
-
-p {
-    font-size: 37px;
-}
-
-.n {
-    font-weight: bold;
-}
-
-
-/**************************/
-
-
-/* clases predefinidas */
-
-* {
-    box-sizing: border-box;
-    padding: 0.5%;
-}
-
-body {
-    margin: 0;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* Clear floats after the columns */
 
@@ -55,21 +16,25 @@ body {
 .column-1 {
     width: 100%;
     float: left;
+    padding: 5%;
 }
 
 .column-2 {
     width: 50%;
     float: left;
+    padding: 5%;
 }
 
 .column-3 {
     width: 33.33%;
     float: left;
+    padding: 5%;
 }
 
 .column-4 {
     width: 25%;
     float: left;
+    padding: 5%;
 }
 
 .column-5 {
@@ -88,42 +53,75 @@ body {
 }
 
 
-/* Colores */
-
-.negro {
-    background-color: black;
-    color: white;
-}
-
-.red {
-    background-color: red;
-}
-
-.amarillo {
-    background-color: yellow;
-}
-
-.azul {
-    background-color: blue;
-}
-
-
-/* jijijija */
+/* Otras clases */
 
 img {
     width: 100%;
 }
 
-.card {
-    height: 300px;
-    width: 100%;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
+.header {
+    text-align: left;
+    padding: 5%;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5%;
 }
 
-.p-s {
-    padding: 1%;
+.header h1 {
+    font-size: 55px;
+    color: darkcyan;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.section-1 {
+    background-color: #F5EEF5;
+    padding: 5%;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 45px;
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.section-2 {
+    background-color: #faf5f3;
+    padding: 5%;
+}
+
+.section-3 {
+    background-color: #f2f9f8;
+    padding: 5%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+h5 {
+    font-size: 19px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -135,7 +133,7 @@ img {
     justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     /* column-2 pasará de tener 50% a 100% */
     .column-2 {
         width: 100%;
@@ -147,5 +145,16 @@ img {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    img {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+    }
+    body {
+        margin: 0%;
+    }
+    .flex {
+        display: block;
     }
 }
